@@ -1,5 +1,5 @@
 import reflex as rx
 
 config = rx.Config(
-    app_name="portafolio-ari",
+    app_name="portafolio",
 )
