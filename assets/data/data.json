@@ -14,169 +14,101 @@
     "about": "Actualmente estudio la carrera de Administración y Mercadotecnia en la Universidad Panamericana Campus Aguascalientes, cuento con una carrera en Técnico en Administración y con certificación Project Management Profession (PMP) por parte de Project Management Institute (PMI).\nActualmente estoy como VP de Comunicaciones en el Club de Jóvenes Lideres en Proyectos con PMI-Nuevo Cuyo Argentina (Project Management Institute).",
     "experience": [
         {
-            "icon": "graduation-cap",
+            "icon": "briefcase-business",
             "title": "Project Management Profession",
             "subtitle": "Project Management Institute",
-            "description": "Soy un Project Manager experimentado con certificación PMP, con habilidades en liderazgo de equipos multidisciplinarios y gestión de proyectos complejos. He liderado con éxito proyectos en base a las ODS propuestas por la ONU y he sido mentora en desarrollo de nuevos proyectos. He utilizado metodologías Agiles y Waterfall para gestionar proyectos, lo que ha permitido una mayor flexibilidad y adaptabilidad a los cambios en los requisitos del proyecto. Mi experiencia en la gestión de proyectos según los estándares del PMI ha sido fundamental para garantizar la calidad y el éxito del proyecto. Diseñé y ejecuté planes de trabajo detallados para proyectos complejos. Gestioné presupuestos y recursos para garantizar la entrega oportuna y dentro del presupuesto. Identifiqué y gestioné los riesgos del proyecto para minimizar los impactos negativos. Mantuve una comunicación clara y efectiva con los interesados del proyecto para garantizar su satisfacción.",
+            "description": "Soy un Project Manager experimentado con certificación PMP, con habilidades en liderazgo de equipos multidisciplinarios y gestión de proyectos complejos. He liderado con éxito proyectos en base a las ODS propuestas por la ONU y he sido mentora en desarrollo de nuevos proyectos. He utilizado metodologías Agiles y Waterfall para gestionar proyectos, lo que ha permitido una mayor flexibilidad y adaptabilidad a los cambios en los requisitos del proyecto. Mi experiencia en la gestión de proyectos según los estándares del PMI ha sido fundamental para garantizar la calidad y el éxito del proyecto.",
+            "list": [
+                "• Diseñé y ejecuté planes de trabajo detallados para proyectos complejos.",
+                "• Gestioné presupuestos y recursos para garantizar la entrega oportuna y dentro del presupuesto.",
+                "• Identifiqué y gestioné los riesgos del proyecto para minimizar los impactos negativos.",
+                "• Mantuve una comunicación clara y efectiva con los interesados del proyecto para garantizar su satisfacción."
+            ],
             "date": "2020 - 2023"
         }
     ],
     "projects": [
         {
-            "icon": "regex",
-            "title": "RegEx-Modificado",
-            "subtitle": "Software Estructuras de Datos y Algoritmos",
-            "description": "Software que permite la creación de expresiones regulares y su posterior evaluación en un texto de entrada.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                }
+            "icon": "book-open-check",
+            "title": "2021 Programa de Mercado Libre junto a Chicas en Tecnología",
+            "subtitle": "Chicas en Tecnología",
+            "description": "",
+            "list": [
+                "• Obtuve conocimiento para analizar datos y con base a ellos elaborar un proyecto de impacto social armando una estrategia de Marketing y Comunicación."
             ],
-            "github": "https://github.com/Kurisari/RegEx-Modificado"
+            "date": "Duración: 28 horas"
         },
         {
-            "icon": "gamepad-2",
-            "title": "Mastermind",
-            "subtitle": "Juego",
-            "description": "Juego de lógica en el que el jugador debe adivinar una combinación de colores oculta en el menor número de intentos posibles.",
-            "technologies": [
-                {
-                    "icon": "devicon-cplusplus-plain",
-                    "name": "C++"
-                }
+            "icon": "clock",
+            "title": "2021 Lideres del Presente y el Futuro",
+            "subtitle": "Chicas en Tecnología junto a Project Management Institute Argentina",
+            "description": "",
+            "list": [
+                "• Conocí lo que es un proyecto y a desarrollarlo, lo planifiqué en conjunto con Chicas en Tecnología y PMI; realicé su ejecución con un proceso de monitoreo y control posterior lo presenté el proyecto."
             ],
-            "github": "https://github.com/Kurisari/Mastermind_CPP"
+            "date": "Duración: 14 horas"
         },
         {
-            "icon": "file-diff",
-            "title": "Compresor de Archivos",
-            "subtitle": "Software Estructuras de Datos y Algoritmos",
-            "description": "Software que permite la compresión y descompresión de archivos utilizando el algoritmo de compresión Huffman.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                }
+            "icon": "pen-line",
+            "title": "2021 Protagonistas del Futuro",
+            "subtitle": "Chicas en Tecnología junto a Disney",
+            "description": "",
+            "list": [
+                "• En este programa descubrí a realizar el proceso para desarrollar una app de la mano de Chicas en Tecnología con el apoyo de Disney a apatir de un problema en la sociedad; al finalizar la aplicación realicé un pitch para darla a conocer a la sociedad y poder ayudar a resolver una problemática. "
             ],
-            "github": "https://github.com/Kurisari/Compresor_Archivos"
+            "date": "Duración: 15 horas"
         },
         {
-            "icon": "box",
-            "title": "Solucionador de Cubos Rubik",
-            "subtitle": "Software Estructuras de Datos y Algoritmos",
-            "description": "Software que permite resolver un cubo Rubik de 3x3x3 utilizando los algoritmos de: búsqueda en anchura (BFS), a*, e ida*.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                }
+            "icon": "panels-top-left",
+            "title": "2022 Curso Kickoff",
+            "subtitle": "Project Management Institute Argentina",
+            "description": "",
+            "list": [
+                "• Curso digital gratuito de los conceptos básicos de la gestión de proyectos, para lanzarlos de forma efectiva de principio a fin.",
+                "• Kickoff Waterfall: Conceptos básicos de dirección de proyectos de forma compleja y laboriosa.",
+                "• Kickoff Agile: Conceptos básicos de dirección de proyectos de forma ágil y rápida."
             ],
-            "github": "https://github.com/Kurisari/Rubik-s-Cube-Solver"
+            "image": "/agile.png",
+            "date": "Duración: 45 min c/u"
         },
         {
-            "icon": "swords",
-            "title": "Quixo Bot",
-            "subtitle": "Software Estructuras de Datos y Algoritmos",
-            "description": "Bot que juega Quixo contra otro bot que utiliza el algoritmo minimax con poda alfa-beta para tomar decisiones.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                }
+            "icon": "clipboard-check",
+            "title": "2022 Líderes del Presente y del Futuro T2",
+            "subtitle": "Project Management Institute Argentina",
+            "description": "",
+            "list": [
+                "• Retromentora",
+                "• Durante el programa guié a los participantes en sus proyectos con los conocimientos adquiridos en la primera temporada."
             ],
-            "github": "https://github.com/Kurisari/quixo-bot"
+            "date": "Duración: 10 horas"
         },
         {
-            "icon": "navigation",
-            "title": "Foreigner's Corner",
-            "subtitle": "Página Web",
-            "description": "Página web de ayuda para foráneos de la Universidad Panamericana campus Aguascalientes.",
-            "technologies": [
-                {
-                    "icon": "devicon-html5-plain",
-                    "name": "Web"
-                }
+            "icon": "clipboard-check",
+            "title": "2023 Líderes del Presente y del Futuro T3",
+            "subtitle": "Project Management Institute Argentina",
+            "description": "",
+            "list": [
+                "• Retromentora",
+                "• Durante el programa guié a los participantes en sus proyectos basados en las ODS propuestas por la ONU, para así llegar al entregable de un proyecto con estructura PMI."
             ],
-            "url": "https://foreigners-corner-up-ags.odoo.com/"
-        },
-        {
-            "icon": "navigation",
-            "title": "Club CIMA",
-            "subtitle": "Página Web",
-            "description": "Página Web creada y gestionada por mi, en la cual se muestra acerca de esta causa social.",
-            "technologies": [
-                {
-                    "icon": "devicon-html5-plain",
-                    "name": "Web"
-                }
-            ],
-            "url": "https://www.clubcima.com.mx/"
-        },
-        {
-            "icon": "dices",
-            "title": "Juegos Clásicos",
-            "subtitle": "Software Java",
-            "description": "Software que contiene tres juegos clásicos conectados a una base de datos con puntajes y usuarios.",
-            "technologies": [
-                {
-                    "icon": "devicon-java-plain",
-                    "name": "Java"
-                },
-                {
-                    "icon": "devicon-mysql-original",
-                    "name": "MySQL"
-                }
-            ],
-            "github": "https://github.com/Kurisari/juegos"
+            "date": "Duración: 10 horas"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Ingeniero en Inteligencia Artificial",
+            "icon": "graduation-cap",
+            "title": "Licenciatura en Administración y Mercadotecnia.",
             "subtitle": "Universidad Panamericana",
-            "description": "Estudio de las técnicas y algoritmos de inteligencia artificial para la creación de sistemas inteligentes.",
-            "date": "ago. 2022 - Actualidad"
+            "description": "Estudio de la administración y mercadotecnia de las empresas, así como de la contabilidad y la economía.",
+            "date": "ago. 2023 - Actualidad"
         },
         {
             "icon": "graduation-cap",
-            "title": "Técnico Agropecuario",
-            "subtitle": "Escuela El Peñón",
-            "description": "Gestión de proyectos agropecuarios.",
-            "date": "ago. 2019 - ago. 2022"
+            "title": "Bachillerato Técnico en Administración de Empresas.",
+            "subtitle": "Colegio Montefalco",
+            "description": "Estudio de las empresas y su administración, así como de la mercadotecnia y la contabilidad.",
+            "date": "ago. 2020 - ago. 2023"
         }
     ],
-    "extras": [
-        {
-            "image": "/extra1.png",
-            "title": "Storytelling en el Marketing Digital",
-            "description": "Santander Open Academy",
-            "url": "https://media.licdn.com/dms/image/D562DAQFRqP4zw5dW4A/profile-treasury-document-images_1280/1/1716179645544?e=1718841600&v=beta&t=KUr5knK8TFAcklna50PdQHdx-K1kyKvXG8RY48vpKF8"
-        },
-        {
-            "image": "/extra2.png",
-            "title": "Transformación Digital",
-            "description": "Santander Open Academy",
-            "url": "https://media.licdn.com/dms/image/D562DAQHT63NiserMnQ/profile-treasury-document-images_1280/1/1716780699918?e=1718841600&v=beta&t=bUaNGLv7t0n2fdFARMd_8zYpmeOEDkw7Jo3obvySEdE"
-        },
-        {
-            "image": "/extra3.png",
-            "title": "AWS Discovery Day: Introducción a la nube y servicios de AWS",
-            "description": "Fast Lane LATAM",
-            "url": "https://media.licdn.com/dms/image/D562DAQF1XSpF1CVD6g/profile-treasury-document-images_1280/1/1717778293926?e=1718841600&v=beta&t=6IhYSuHkTHVGNqmyURSjzyFPTE2nbcGhuBNQ9NTziDM"
-        },
-        {
-            "image": "/extra4.png",
-            "title": "Reconocimiento por compromiso y liderazgo",
-            "description": "Expedida por UNETE: Universitarios en toda su expresión · may. 2023",
-            "url": ""
-        },
-        {
-            "image": "/extra5.png",
-            "title": "Reconocimiento mejor promedio de generación",
-            "description": "Expedida por Facultad de Ingeniería de la Universidad Panamericana Campus Aguascalientes · may. 2023",
-            "url": ""
-        }
-    ]
+    "extras": []
 }
