@@ -6,6 +6,7 @@ from portafolio.views.extra import extra
 from portafolio.views.footer import footer
 from portafolio.views.header import header
 from portafolio.views.info import info
+from portafolio.views.skills import skills
 
 DATA = data.data
 
@@ -20,6 +21,9 @@ def index() -> rx.Component:
             info("Experiencia Laboral", DATA.experience),
             info("Formación", DATA.training),
             info("Formación Complentaria", DATA.projects),
+            skills("Programas Computacionales", DATA.skills_comp),
+            skills("Habilidades", DATA.skills_hab),
+            skills("Idiomas", DATA.languages),
             # extra(DATA.extras),
             rx.divider(),
             footer(DATA.media),
