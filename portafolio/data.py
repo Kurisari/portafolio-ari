@@ -10,7 +10,7 @@ class Media:
 
 
 class Info:
-    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github="", list=[]):
+    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github="", list=[], image_mobile=""):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
@@ -19,6 +19,7 @@ class Info:
         self.date = date
         self.certificate = certificate
         self.image = image
+        self.image_mobile = image_mobile
         self.url = url
         self.github = github
 
