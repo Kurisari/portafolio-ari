@@ -17,6 +17,14 @@ def info_detail(info: Info) -> rx.Component:
                     size=Size.SMALL.value,
                     color_scheme="gray"
                 ),
+                rx.vstack(
+                    *[
+                        rx.text(item, size=Size.SMALL.value, color_scheme="gray")
+                        for item in info.list
+                    ],
+                    spacing=Size.SMALL.value,
+                    width="100%"
+                ),
                 rx.hstack(
                     rx.cond(
                         info.url != "",
