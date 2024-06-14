@@ -111,5 +111,51 @@
             "date": "ago. 2020 - ago. 2023"
         }
     ],
-    "extras": []
+    "extras": [],
+    "skills_comp": [
+        {
+            "title": "Microsoft Office",
+            "percentage": 75
+        },
+        {
+            "title": "Google Apps",
+            "percentage": 75
+        },
+        {
+            "title": "Adobe Photoshop",
+            "percentage": 25
+        },
+        {
+            "title": "Canva",
+            "percentage": 75
+        }
+    ],
+    "skills_hab": [
+        {
+            "title": "Organización",
+            "percentage": 100
+        },
+        {
+            "title": "Compromiso",
+            "percentage": 100
+        },
+        {
+            "title": "Responsabilidad",
+            "percentage": 100
+        },
+        {
+            "title": "Trabajo bajo presión",
+            "percentage": 75
+        },
+        {
+            "title": "Trabajo en equipo",
+            "percentage": 75
+        }
+    ],
+    "languages": [
+        {
+            "title": "Inglés",
+            "percentage": 25
+        }
+    ]
 }
