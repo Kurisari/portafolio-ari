@@ -73,7 +73,7 @@ def info_detail(info: Info) -> rx.Component:
             spacing=Size.SMALL.value,
             align="end"
         ),
-        flex_direction=["column-reverse", "row"],
+        flex_direction=["column", "row"],
         spacing=Size.DEFAULT.value,
         width="100%"
     )
