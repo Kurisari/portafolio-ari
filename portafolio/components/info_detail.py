@@ -49,12 +49,26 @@ def info_detail(info: Info) -> rx.Component:
         ),
         rx.cond(
             info.image != "",
-            rx.image(
-                src=info.image,
-                height=IMAGE_HEIGHT,
-                width="auto",
-                border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+            rx.tablet_and_desktop(
+                rx.image(
+                    src=info.image,
+                    height=IMAGE_HEIGHT,
+                    width="100%",
+                    border_radius=EmSize.DEFAULT.value,
+                    object_fit="contain"
+                )
+            )
+        ),
+        rx.cond(
+            info.image_mobile != "",
+            rx.mobile_only(
+                rx.image(
+                    src=info.image_mobile,
+                    height=IMAGE_HEIGHT,
+                    width="100%",
+                    border_radius=EmSize.DEFAULT.value,
+                    object_fit="contain"
+                )
             )
         ),
         rx.vstack(
