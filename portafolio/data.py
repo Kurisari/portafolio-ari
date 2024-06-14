@@ -31,6 +31,11 @@ class Extra:
         self.description = description
         self.url = url
 
+class Skills:
+    def __init__(self, title, percentage):
+        self.title = title
+        self.percentage = percentage
+
 
 class Data:
     def __init__(
@@ -47,7 +52,10 @@ class Data:
             experience,
             projects,
             training,
-            extras
+            extras,
+            skills_comp,
+            skills_hab,
+            languages
     ):
         self.title = title
         self.description = description
@@ -55,6 +63,7 @@ class Data:
         self.avatar = avatar
         self.name = name
         self.skill = skill
+        self.skills = skills_comp
         self.location = location
         self.media = Media(**media)
         self.about = about
@@ -62,6 +71,9 @@ class Data:
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]
+        self.skills_comp = [Skills(**info) for info in skills_comp]
+        self.skills_hab = [Skills(**info) for info in skills_hab]
+        self.languages = [Skills(**info) for info in languages]
 
 
 with open("assets/data/data.json", 'r', encoding='utf-8') as file:
