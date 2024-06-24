@@ -16,7 +16,7 @@ def index() -> rx.Component:
     return rx.center(
         # rx.theme_panel(),
         rx.vstack(
-            color_button(),
+            # color_button(),
             header(DATA),
             about(DATA.about),
             rx.divider(),
