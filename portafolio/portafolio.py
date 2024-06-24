@@ -7,6 +7,7 @@ from portafolio.views.footer import footer
 from portafolio.views.header import header
 from portafolio.views.info import info
 from portafolio.views.skills import skills
+from portafolio.components.color_button import color_button
 
 DATA = data.data
 
@@ -15,6 +16,7 @@ def index() -> rx.Component:
     return rx.center(
         # rx.theme_panel(),
         rx.vstack(
+            color_button(),
             header(DATA),
             about(DATA.about),
             rx.divider(),
